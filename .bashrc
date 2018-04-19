@@ -7,7 +7,7 @@
 
 alias ls='ls --color=auto'
 # >>> BEGIN ADDED BY CNCHI INSTALLER
-BROWSER=/usr/bin/chromium
+BROWSER=/usr/bin/firefox
 EDITOR=/usr/bin/vim
 # <<< END ADDED BY CNCHI INSTALLER
 
@@ -18,6 +18,7 @@ alias dc='docker-compose'
 alias dcd='docker-compose kill && docker-compose rm -f'
 alias dcp='docker-compose pull --parallel'
 alias ll='ls -la'
+alias yay='echo YAY!!!'
 
 xmodmap -e "clear Lock"
 xmodmap -e "keycode 9 = Caps_Lock NoSymbol Caps_Lock"
@@ -40,8 +41,4 @@ alias gitclone='echo "git@github.com:DenisKolodin/yew.git"'
 
 # tabtab source for electron-forge package
 # uninstall by removing these lines or running `tabtab uninstall electron-forge`
-[ -f /home/joel/code/ganache/node_modules/tabtab/.completions/electron-forge.bash ] && . /home/joel/code/ganache/node_modules/tabtab/.completions/electron-forge.bash
-export PATH="$PATH:`yarn global bin`"
-alias google-chrome="google-chrome-stable"
-export PATH=~/Android/Sdk/tools:$PATH
-export PATH=~/Android/Sdk/platform-tools:$PATH
+[ -f /home/adriaanp/code/abx/kinesis-wallet/node_modules/tabtab/.completions/electron-forge.bash ] && . /home/adriaanp/code/abx/kinesis-wallet/node_modules/tabtab/.completions/electron-forge.bash

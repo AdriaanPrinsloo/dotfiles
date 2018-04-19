@@ -108,6 +108,9 @@ Plug 'morhetz/gruvbox'
 " Autoformat
 Plug 'Chiel92/vim-autoformat'
 
+" Scala 
+Plug 'derekwyatt/vim-scala'
+
 " For high productivity
 Plug 'rbtnn/game_engine.vim'
 Plug 'rbtnn/mario.vim'
