@@ -11,6 +11,9 @@ set hidden
 " Allows mouse interaction
 set mouse=a
 
+" Automatically update buffer if file changes externally
+set autoread
+
 " Yanks and pastes off system clipboard as default clipboard
 set clipboard=unnamedplus
 
@@ -97,6 +100,9 @@ Plug 'crusoexia/vim-monokai'
 
 " Autoformat
 Plug 'Chiel92/vim-autoformat'
+
+" Scala 
+Plug 'derekwyatt/vim-scala'
 
 " For high productivity
 Plug 'rbtnn/game_engine.vim'
