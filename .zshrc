@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/adriaanp/.oh-my-zsh
+export ZSH=/Users/adriaanp/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -95,9 +95,9 @@ alias ll='ls -la'
 alias yay='echo YAY!!!'
 alias ns='netstat -tulpn'
 
-xmodmap -e "clear Lock"
-xmodmap -e "keycode 9 = Caps_Lock NoSymbol Caps_Lock"
-xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+# xmodmap -e "clear Lock"
+# xmodmap -e "keycode 9 = Caps_Lock NoSymbol Caps_Lock"
+# xmodmap -e "keycode 66 = Escape NoSymbol Escape"
 
 alias cbc='xclip -selection clipboard'
 alias cbp='xclip -selection clipboard -o'
@@ -122,3 +122,5 @@ alias cbp='xclip -selection clipboard -o'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
