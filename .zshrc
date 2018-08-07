@@ -95,9 +95,9 @@ alias ll='ls -la'
 alias yay='echo YAY!!!'
 alias ns='netstat -tulpn'
 
-xmodmap -e "clear Lock"
-xmodmap -e "keycode 9 = Caps_Lock NoSymbol Caps_Lock"
-xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+# xmodmap -e "clear Lock"
+# xmodmap -e "keycode 9 = Caps_Lock NoSymbol Caps_Lock"
+# xmodmap -e "keycode 66 = Escape NoSymbol Escape"
 
 alias cbc='xclip -selection clipboard'
 alias cbp='xclip -selection clipboard -o'
