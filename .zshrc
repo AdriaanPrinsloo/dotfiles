@@ -1,8 +1,13 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export PATH=~/.local/bin:$PATH
+export PATH=~/code/envision/infrastructure/jupyter-spark/flintrock:$PATH
+export PATH=/home/adriaanp/anaconda3/bin:$PATH
+export PATH=/home/adriaanp/code/envision/device_audio/linux_POC:$PATH
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/adriaanp/.oh-my-zsh
+export ZSH=/home/adriaanp/.oh-my-zsh
+# Google Cloud creds
+export GOOGLE_APPLICATION_CREDENTIALS=/home/adriaanp/.ssh/audio-test-0223fcfb585c.json
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -84,6 +89,7 @@ fi
 
 export BROWSER=/usr/bin/firefox
 
+export LD_LIBRARY_PATH="/home/adriaanp/code/envision/device_audio/linux_POC/bin/linux/x64"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -91,9 +97,10 @@ export NVM_DIR="$HOME/.nvm"
 alias dc='docker-compose'
 alias dcd='docker-compose kill && docker-compose rm -f'
 alias dcp='docker-compose pull --parallel'
-alias ll='ls -la'
+alias ll='ls -lah'
 alias yay='echo YAY!!!'
 alias ns='netstat -tulpn'
+alias recog='cd /home/adriaanp/code/envision/device_audio/recognition_service'
 
 # xmodmap -e "clear Lock"
 # xmodmap -e "keycode 9 = Caps_Lock NoSymbol Caps_Lock"
