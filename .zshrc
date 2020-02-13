@@ -99,9 +99,12 @@ alias dcd='docker-compose kill && docker-compose rm -f'
 alias dcp='docker-compose pull --parallel'
 alias ll='ls -lah'
 alias yay='echo YAY!!!'
+alias y='echo YAY!!!'
 alias ns='netstat -tulpn'
 alias recog='cd /home/adriaanp/code/envision/device_audio/recognition_service'
-
+alias clinic='cd /home/adriaanp/code/envision/clinic-server'
+alias jack_poc='/home/adriaanp/code/envision/device_audio/jack_poc/target/debug/jack_poc'
+alias spotifyx2='/usr/bin/spotify --force-device-scale-factor=2'
 # xmodmap -e "clear Lock"
 # xmodmap -e "keycode 9 = Caps_Lock NoSymbol Caps_Lock"
 # xmodmap -e "keycode 66 = Escape NoSymbol Escape"
@@ -129,3 +132,5 @@ alias cbp='xclip -selection clipboard -o'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

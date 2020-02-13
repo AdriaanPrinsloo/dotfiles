@@ -99,7 +99,7 @@ Plug 'quramy/tsuquyomi'
 Plug 'tomlion/vim-solidity'
 
 " Auto completion / drop down / utilities for multi languages (and ts)
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --rust-completer' }
 
 " Color Schemes
 " Plug 'flazz/vim-colorschemes'
@@ -110,6 +110,9 @@ Plug 'Chiel92/vim-autoformat'
 
 " Scala 
 Plug 'derekwyatt/vim-scala'
+
+" Rust
+Plug 'rust-lang/rust.vim'
 
 " For high productivity
 Plug 'rbtnn/game_engine.vim'
